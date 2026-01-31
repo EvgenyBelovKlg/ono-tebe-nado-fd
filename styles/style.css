@@ -157,7 +157,7 @@
 
 .lots__card-list-item {
   min-height: 596px;
-  flex-basis: calc(33% - 25px);
+  flex-basis: calc(33% - 25px); /*расчет ширины карточки*/
   flex-grow: 1;
 }
 
