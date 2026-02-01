@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1 спринт. Проектная работа</title>
+    <title>Оно тебе надо</title>
     <link rel="stylesheet" href="fonts/fonts.css" />
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/style.css" />
@@ -11,19 +11,17 @@
   <body>
     <header class="header">
       <nav class="header__menu">
-        <ul class="header__link-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link" href="#0">главная</a>
+        <ul class="header__link__list">
+          <li
+            class="header__links__list__item header__links__list__item__no__bullit"
+          >
+            <a class="header__link header__link__active" href="#0">главная</a>
           </li>
-          <li class="header__links-list-item">
-            <a class="header__link header__link_active" href="#0"
-              >посмотреть лоты</a
-            >
+          <li class="header__links__list__item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="header__links-list-item">
-            <a class="header__link header__link_active" href="#0"
-              >об аукционе</a
-            >
+          <li class="header__links__list__item">
+            <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -52,13 +50,13 @@
         </h1>
         <div class="cover__description">
           <h2 class="cover__description-text">
-            Аукцион вещей, в которые никто не верил
+            <p>Аукцион вещей, в которые никто не верил</p>
           </h2>
           <button class="bet__button" type="button">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h2 class="lots__heading">Лоты</h2>
+        <h2 class="lots__heading"><p>Лоты</p></h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card__link" href="#0"
@@ -118,29 +116,23 @@
             <img src="./images/about-logo.svg" alt="Лого об Аукционе" />
           </div>
           <div class="about__title__text">
-            <h2 class="about__title">Об аукционе</h2>
+            <h2 class="about__title"><p>Об аукционе</p></h2>
             <div class="text__container">
-              <p class="about__text text__up">
+              <p class="about__text">
                 Здесь вы не встретите очередное пафосное собрание невероятно
                 дорогого антиквариата. Наши лоты вообще не должны были попасть
                 ни на один аукцион. Потому что кому нужен дневник
                 девочки-подростка или картина, которую может нарисовать даже
                 ребёнок? Кому нужны все эти странные вещи, созданные любителями?
               </p>
-              <p class="about__text text__down">
-                Слишком сложные или, наоборот, слишком простые. Опережающие
-                <br />
-                своё время. В пух и прах растерзанные критиками. Непринятые и
-                <br />
+              <p class="about__text">
+                Слишком сложные или, наоборот, слишком простые. Опережающие своё
+                время. В пух и прах растерзанные критиками. Непринятые и
                 непонятые. Когда-то они казались просто неудачными. Но, несмотря
-                <br />
                 на критику, кажущуюся простоту или сложность, сейчас без этих
-                лотов <br />
-                невозможно представить современную культуру. Когда в эти вещи не
-                <br />
-                верил никто, продолжали верить их создатели. И сейчас эти лоты
-                <br />
-                стали культовыми.
+                лотов невозможно представить современную культуру. Когда в эти
+                вещи не верил никто, продолжали верить их создатели. И сейчас
+                эти лоты стали культовыми.
               </p>
             </div>
           </div>
@@ -156,16 +148,16 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a href="#0" class="footer__menu-link">главная</a>
+            <a href="#0" class="footer__menu-link  footer__menu-link_active">главная</a>
           </li>
 
           <li class="footer__menu-list-item">
-            <a href="#0" class="footer__menu-link footer__menu-link_active"
+            <a href="#0" class="footer__menu-link"
               >посмотреть лоты</a
             >
           </li>
           <li class="footer__menu-list-item">
-            <a href="#0" class="footer__menu-link footer__menu-link_active"
+            <a href="#0" class="footer__menu-link"
               >об аукционе</a
             >
           </li>
@@ -173,22 +165,19 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="#0" class="footer__social-link"
-            ><div class="footer__social-icon">
-              <img src="images/YouTube.svg" alt="Ссылка Youtube" /></div
-          ></a>
+          <a href="#0" class="footer__social-link" target="_blank">
+            <img src="images/YouTube.svg" alt="Ссылка Youtube" />
+          </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#0" class="footer__social-link"
-            ><div class="footer__social-icon">
-              <img src="images/VK.svg" alt="Ссылка VK" /></div
-          ></a>
+          <a href="#0" class="footer__social-link" target="_blank">
+            <img src="images/VK.svg" alt="Ссылка VK" />
+          </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#0" class="footer__social-link"
-            ><div class="footer__social-icon">
-              <img src="images/Pinterest.svg" alt="Ссылка Pinteres" /></div
-          ></a>
+          <a href="#0" class="footer__social-link" target="_blank">
+            <img src="images/Pinterest.svg" alt="Ссылка Pinteres" />
+          </a>
         </li>
       </ul>
     </footer>
